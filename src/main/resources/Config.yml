@@ -1,0 +1,14 @@
+Messages:
+  updated-maxplayers: "Successfully changed the max player slots to {slots}!"
+  no-permission: "you do not have permission to perform this command!"
+  incorrect-format: "You need to specify a number!"
+  current-slots: "there are currently {slots} slots open"
+  full-server-message: "the server is currently full!"
+
+Permissions:
+  use: "MaxPlayers.use" # Use the maxplayers command
+  bypass: "MaxPlayers.bypass" # Bypass the max player slots limit
+
+max-slots: 20 # Maximum player slots for the server
+
+auto-save: true # Auto save the max slots after restart?

@@ -1,0 +1,13 @@
+name: MaxPlayers
+version: '1.0'
+main: me.Eliya.maxPlayers.MaxPlayers
+description: A plugin which changed the maximum players that can join a server
+api-version: '1.19'
+load: STARTUP
+authors: [ Eliya2035 ]
+commands:
+  maxplayers:
+    usage: /maxplayers [slots]
+    aliases:
+      - setslots
+      - changeslots
