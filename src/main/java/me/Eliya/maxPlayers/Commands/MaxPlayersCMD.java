@@ -26,7 +26,7 @@ public class MaxPlayersCMD implements CommandExecutor {
             return true;
         }
 
-        int slots = 20;
+        int slots;
 
         try {
             slots = Integer.parseInt(args[0]);
@@ -34,6 +34,7 @@ public class MaxPlayersCMD implements CommandExecutor {
 
         catch (NumberFormatException e) {
             sender.sendMessage(Colors.translator(config.getString("Messages.incorrect-format")));
+            return true;
         }
 
         if (slots < 0) {
